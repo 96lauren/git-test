@@ -8,7 +8,7 @@
 </head>
 <body>
 	<h1>sramcious</h1>
-
+	<!-- start of images  -->
 	<div class="photos">
 		<img class="food" src="images/cereal.jpg" alt="cerea;" style="width: 100%">
 		<img class="food" src="images/meat.jpg" alt="meat" style="width: 100%">
@@ -20,6 +20,7 @@
         <button class="two" onclick="plusDivs(1)">&#10095;</button>
 		
 	</div>
+	<!-- end of images -->
 
 	<script >
 		
@@ -31,7 +32,7 @@ function plusDivs(n) {
 }
 
 function showDivs(n) {
-  var x = document.getElementsByClassName("food");
+  var x = document.getElementsByClassName("food");   
   if (n > x.length) {slideIndex = 1}    
   if (n < 1) {slideIndex = x.length}
   for (i = 0; i < x.length; i++) {
