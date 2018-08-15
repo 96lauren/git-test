@@ -1,0 +1,29 @@
+*{
+	box-sizing: border-box;
+}
+
+body{
+	background:#f1f1f1;
+}
+
+h1{
+	color:#fff;
+	font-size:30px;
+	text-align: center;
+}
+.photos{
+	width:300px;
+	margin:auto;
+}
+button{
+	background:lightgreen;
+}
+.one{
+	float: left;
+}
+.two{
+	float:right;
+}
+img{
+	border-radius: 50%;
+}
